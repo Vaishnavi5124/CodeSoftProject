@@ -1,0 +1,166 @@
+/* Add or modify styles as needed */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(90deg, #86c995, #f7d4b7);
+    color: #333;
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #95a5a6;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #bdc3c7;
+}
+
+/* styles.css */
+
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+    padding: 10px 0; /* Add padding for better visual appearance */
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white; /* Text color for navigation items */
+    font-size: 16px; /* Adjust the font size */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline the navigation item on hover */
+}
+
+
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    width: 48%;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.event-details,
+.additional-topic,
+.another-topic {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.additional-topic img,
+.another-topic img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.instructor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.instructor-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.instructor-info {
+    flex-grow: 1;
+}
+
+.instructor-info h3 {
+    margin-top: 0;
+}
+
+
+
+
+footer {
+    background: linear-gradient(90deg, #86c995, #f7d4b7);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
